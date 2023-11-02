@@ -7,6 +7,6 @@
     <string name="id_hint">ID</string>
     <string name="name_hint">Pedro Capriles</string>
     <string name="phone_hint">3112223344</string>
-    <string name="mail_hint">caprilespe@outlook.com</string>    
+    <string name="mail_hint">caprilespe@outlook.com</string>
     <string name="action_switch_layout">Change activity</string>
 </resources>

@@ -61,4 +61,22 @@ class MainActivity : AppCompatActivity() {
            ))
        }
     }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.layout_menu, menu)
+        supportActionBar!!.title = "Retrofit"
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_switch_layout -> {
+                // Create an intent with a destination of the other Activity
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
 }
