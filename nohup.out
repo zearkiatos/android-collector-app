@@ -1,0 +1,8 @@
+INFO    | Android emulator version 32.1.15.0 (build_id 10696886) (CL:N/A)
+INFO    | Found systemPath /Users/pedrocapriles/Library/Android/sdk/system-images/android-32/google_apis/arm64-v8a/
+WARNING | Please update the emulator to one that supports the feature(s): Vulkan
+ERROR   | Running multiple emulators with the same AVD 
+ERROR   | is an experimental feature.
+ERROR   | Please use -read-only flag to enable this feature.
+INFO    | Storing crashdata in: /tmp/android-pedrocapriles/emu-crash.db, detection is enabled
+INFO    | Duplicate loglines will be removed, if you wish to see each indiviudal line launch with the -log-nofilter flag.
